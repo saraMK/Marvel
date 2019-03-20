@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/search_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/charc"
+        android:scaleType="centerInside"
+        android:id="@+id/hero_banner_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         app:layout_constraintTop_toTopOf="@id/search_img"
+        app:layout_constraintBottom_toBottomOf="@id/search_img"
+        app:layout_constraintStart_toEndOf="@id/search_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:text="Absorbing Man"
+        android:id="@+id/hero_name_text"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/white"/>
+</android.support.constraint.ConstraintLayout>

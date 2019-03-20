@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:id="@+id/search_toolbar">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:textColorHint="@color/transparent_black"
+        android:drawableStart="@drawable/ic_search_black"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/search_edittext_bg"
+        android:layout_weight="1"
+        android:id="@+id/search_field_text"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@color/transparent"
+        android:textColor="@color/colorAccent"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:id="@+id/cancel_btn"/>
+</LinearLayout>

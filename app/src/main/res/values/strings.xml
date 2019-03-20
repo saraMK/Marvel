@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="search">Search ....</string>
+    <string name="cancel">cancel</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="related_links">Related Links</string>
+    <string name="details">Details</string>
+    <string name="wiki">Wiki</string>
+    <string name="comic_link">ComicLinks</string>
+    <string name="comics">Comics</string>
+    <string name="events">Events</string>
+    <string name="stories">Stories</string>
+    <string name="serise">Serise</string>
+    <string name="noConnection">No Connectiont</string>
+    <string name="connectionError">Network error , try again</string>
+</resources>
