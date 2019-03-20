@@ -8,12 +8,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_icn_nav_marvel"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ui.MarvelHerosActivity">
+        <activity android:name=".Ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Ui.MarvelHeroCoverActivity" />
-        <!-- <activity android:name=".Ui.MarvelHerosActivity"></activity> -->
+         <activity android:name=".Ui.MarvelHerosActivity"></activity>
         <activity android:name=".Ui.SearchActivity" />
         <activity android:name=".Ui.MarvelHeroDetailsActivity"></activity>
     </application>
